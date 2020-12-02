@@ -5918,6 +5918,74 @@ Used in manufacturing several products at SparkFun.
 </device>
 </devices>
 </deviceset>
+<deviceset name="LED-RED" prefix="D" uservalue="yes">
+<description>&lt;h3&gt;Red SMD LED&lt;/h3&gt;
+&lt;p&gt;Used in manufacturing of most products at SparkFun&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Packages:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;b&gt;0603&lt;/b&gt; - SMD 0603 package &lt;a href="http://docs.avagotech.com/docs/AV02-0551EN"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;0603 SMART&lt;/b&gt; - SMD 0603 SMART package ( more efficient and expensive)&lt;a href="http://www.osram-os.com/Graphics/XPic2/00077099_0.pdf"&gt;[Product Link]&lt;/li&gt;
+&lt;li&gt;&lt;b&gt; 1206&lt;/b&gt; - SMD1206  package &lt;a href="https://www.sparkfun.com/datasheets/DevTools/LilyPad/Q150OVS4.pdff"&gt;[Product Link]&lt;/li&gt;
+&lt;ul&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/821”&gt;Pro Mini 328 -5V&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/12757”&gt;RedBoard&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13613”&gt;IOIO-OTG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0603" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-00819"/>
+<attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="1206" package="LED-1206">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09912"/>
+<attribute name="VALUE" value="RED" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="0603-SMART" package="LED-0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-11154" constant="no"/>
+<attribute name="VALUE" value="Red" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_HIDDENSILK" package="LED-1206-HIDDENSILK">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-09912" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-DiscreteSemi">
@@ -8530,6 +8598,10 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <part name="C7" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0402T-1/16W-5%"/>
+<part name="R8" library="SparkFun-Resistors" deviceset="1KOHM" device="-0402T-1/16W-1%" value="1k"/>
+<part name="D3" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY36" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8554,16 +8626,16 @@ VIN: 2.5V-6V</text>
 <wire x1="330.2" y1="106.68" x2="330.2" y2="132.08" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="132.08" x2="330.2" y2="193.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="106.68" x2="431.8" y2="106.68" width="0.2032" layer="97" style="longdash"/>
-<wire x1="330.2" y1="66.04" x2="281.94" y2="66.04" width="0.2032" layer="97" style="longdash"/>
-<wire x1="281.94" y1="66.04" x2="259.08" y2="66.04" width="0.2032" layer="97" style="longdash"/>
-<wire x1="259.08" y1="66.04" x2="236.22" y2="66.04" width="0.2032" layer="97" style="longdash"/>
-<text x="307.34" y="60.96" size="2.54" layer="94" font="vector" align="center">Reset Button</text>
-<text x="215.9" y="60.96" size="2.54" layer="94" font="vector" align="center">BLINK LED</text>
+<wire x1="330.2" y1="66.04" x2="294.64" y2="66.04" width="0.2032" layer="97" style="longdash"/>
+<wire x1="294.64" y1="66.04" x2="259.08" y2="66.04" width="0.2032" layer="97" style="longdash"/>
+<text x="312.42" y="60.96" size="2.54" layer="94" font="vector" align="center">Reset Button</text>
+<text x="213.36" y="60.96" size="2.54" layer="94" font="vector" align="center">BLINK LED</text>
 <text x="381" y="101.6" size="2.54" layer="94" font="vector" align="center">Headers</text>
 <text x="421.64" y="10.16" size="2.54" layer="94" font="vector" align="top-left">v10</text>
 <text x="292.1" y="187.96" size="2.54" layer="94" font="vector" align="center">QWIIC Connector</text>
 <text x="383.54" y="274.32" size="2.54" layer="94" font="vector" align="center">USB Connector</text>
-<wire x1="236.22" y1="66.04" x2="198.12" y2="66.04" width="0.2032" layer="97" style="longdash"/>
+<wire x1="259.08" y1="66.04" x2="228.6" y2="66.04" width="0.2032" layer="97" style="longdash"/>
+<wire x1="228.6" y1="66.04" x2="198.12" y2="66.04" width="0.2032" layer="97" style="longdash"/>
 <wire x1="259.08" y1="66.04" x2="259.08" y2="132.08" width="0.1524" layer="97" style="longdash"/>
 <wire x1="259.08" y1="132.08" x2="259.08" y2="193.04" width="0.1524" layer="97" style="longdash"/>
 <wire x1="259.08" y1="132.08" x2="330.2" y2="132.08" width="0.1524" layer="97" style="longdash"/>
@@ -8584,12 +8656,14 @@ but can fall back to SPI1</text>
 <text x="294.64" y="127" size="2.54" layer="94" font="vector" align="center">uSD Connector</text>
 <text x="228.6" y="127" size="2.54" layer="94" font="vector" align="center">Battery Fuel Gauge </text>
 <text x="228.6" y="187.96" size="2.54" layer="94" font="vector" align="center">WS2812</text>
-<wire x1="236.22" y1="66.04" x2="236.22" y2="0" width="0.2032" layer="97" style="longdash"/>
+<wire x1="259.08" y1="66.04" x2="259.08" y2="0" width="0.2032" layer="97" style="longdash"/>
 <text x="218.44" y="73.66" size="1.778" layer="97">I2C_ADDR: 0x36</text>
-<wire x1="281.94" y1="66.04" x2="281.94" y2="0" width="0.2032" layer="97" style="longdash"/>
-<text x="256.54" y="60.96" size="2.54" layer="94" font="vector" align="center">Boot Select</text>
+<wire x1="294.64" y1="66.04" x2="294.64" y2="0" width="0.2032" layer="97" style="longdash"/>
+<text x="276.86" y="60.96" size="2.54" layer="94" font="vector" align="center">Boot Select</text>
 <wire x1="259.08" y1="193.04" x2="259.08" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <text x="294.894" y="274.066" size="2.54" layer="94" font="vector" align="center">Debug Header</text>
+<wire x1="228.6" y1="66.04" x2="228.6" y2="0" width="0.2032" layer="97" style="longdash"/>
+<text x="243.84" y="60.96" size="2.54" layer="94" font="vector" align="center">PWR LED</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -8612,9 +8686,9 @@ but can fall back to SPI1</text>
 <attribute name="NAME" x="50.8" y="248.92" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="50.8" y="246.38" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="D4" gate="G$1" x="215.9" y="33.02" smashed="yes">
-<attribute name="NAME" x="212.471" y="28.448" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="217.805" y="28.448" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D4" gate="G$1" x="213.36" y="33.02" smashed="yes">
+<attribute name="NAME" x="209.931" y="28.448" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="215.265" y="28.448" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="FD1" gate="G$1" x="429.26" y="27.94" smashed="yes"/>
 <instance part="FD2" gate="G$1" x="426.72" y="25.4" smashed="yes"/>
@@ -8819,8 +8893,8 @@ but can fall back to SPI1</text>
 <attribute name="VALUE" x="355.6" y="223.774" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 <attribute name="NAME" x="355.6" y="246.634" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="S2" gate="G$1" x="307.34" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="305.816" y="30.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<instance part="S2" gate="G$1" x="312.42" y="30.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="310.896" y="30.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="J6" gate="G$1" x="299.72" y="99.06" smashed="yes">
 <attribute name="NAME" x="294.64" y="112.268" size="1.778" layer="95"/>
@@ -8883,8 +8957,8 @@ but can fall back to SPI1</text>
 <instance part="SUPPLY9" gate="G$1" x="414.02" y="170.18" smashed="yes">
 <attribute name="VALUE" x="414.02" y="172.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="S1" gate="G$1" x="259.08" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="257.556" y="30.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<instance part="S1" gate="G$1" x="276.86" y="30.48" smashed="yes" rot="R90">
+<attribute name="NAME" x="275.336" y="30.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="GND38" gate="1" x="281.94" y="142.24" smashed="yes">
 <attribute name="VALUE" x="281.94" y="141.986" size="1.778" layer="96" align="top-center"/>
@@ -8925,14 +8999,14 @@ but can fall back to SPI1</text>
 <instance part="GND6" gate="1" x="403.86" y="76.2" smashed="yes">
 <attribute name="VALUE" x="403.86" y="75.946" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND7" gate="1" x="215.9" y="10.16" smashed="yes">
-<attribute name="VALUE" x="215.9" y="9.906" size="1.778" layer="96" align="top-center"/>
+<instance part="GND7" gate="1" x="213.36" y="10.16" smashed="yes">
+<attribute name="VALUE" x="213.36" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND1" gate="1" x="307.34" y="20.32" smashed="yes">
-<attribute name="VALUE" x="307.34" y="20.066" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="312.42" y="20.32" smashed="yes">
+<attribute name="VALUE" x="312.42" y="20.066" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND36" gate="1" x="259.08" y="20.32" smashed="yes">
-<attribute name="VALUE" x="259.08" y="20.066" size="1.778" layer="96" align="top-center"/>
+<instance part="GND36" gate="1" x="276.86" y="20.32" smashed="yes">
+<attribute name="VALUE" x="276.86" y="20.066" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="SUPPLY35" gate="G$1" x="33.02" y="251.46" smashed="yes">
 <attribute name="VALUE" x="33.02" y="254.254" size="1.778" layer="96" align="bottom-center"/>
@@ -9031,9 +9105,9 @@ but can fall back to SPI1</text>
 <attribute name="NAME" x="155.956" y="236.22" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="159.004" y="236.22" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="215.9" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="214.376" y="20.32" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="217.424" y="20.32" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R3" gate="G$1" x="213.36" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="211.836" y="20.32" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="214.884" y="20.32" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="J1" gate="G$1" x="292.1" y="233.68" smashed="yes">
 <attribute name="NAME" x="281.94" y="241.554" size="1.778" layer="95" font="vector"/>
@@ -9058,6 +9132,20 @@ but can fall back to SPI1</text>
 </instance>
 <instance part="R6" gate="G$1" x="200.66" y="233.68" smashed="yes" rot="R90">
 <attribute name="NAME" x="199.136" y="233.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="R8" gate="G$1" x="243.84" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="242.316" y="20.32" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="245.364" y="20.32" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="D3" gate="G$1" x="243.84" y="33.02" smashed="yes">
+<attribute name="NAME" x="240.411" y="28.448" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="245.745" y="28.448" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+</instance>
+<instance part="GND41" gate="1" x="243.84" y="10.16" smashed="yes">
+<attribute name="VALUE" x="243.84" y="9.906" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY36" gate="G$1" x="243.84" y="38.1" smashed="yes">
+<attribute name="VALUE" x="243.84" y="40.894" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -9192,6 +9280,11 @@ but can fall back to SPI1</text>
 <wire x1="279.4" y1="238.76" x2="276.86" y2="238.76" width="0.1524" layer="91" style="longdash"/>
 <wire x1="276.86" y1="238.76" x2="276.86" y2="241.3" width="0.1524" layer="91" style="longdash"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="243.84" y1="35.56" x2="243.84" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="SUPPLY36" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9403,17 +9496,17 @@ but can fall back to SPI1</text>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="25.4" x2="307.34" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="25.4" x2="312.42" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="S2" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="259.08" y1="25.4" x2="259.08" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="25.4" x2="276.86" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="S1" gate="G$1" pin="1"/>
 <pinref part="GND36" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="215.9" y1="15.24" x2="215.9" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="15.24" x2="213.36" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
@@ -9427,6 +9520,11 @@ but can fall back to SPI1</text>
 <wire x1="279.4" y1="231.14" x2="276.86" y2="231.14" width="0.1524" layer="91" style="longdash"/>
 <wire x1="276.86" y1="231.14" x2="276.86" y2="228.6" width="0.1524" layer="91" style="longdash"/>
 <pinref part="GND40" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="243.84" y1="15.24" x2="243.84" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="V_USB" class="0">
@@ -9542,7 +9640,7 @@ but can fall back to SPI1</text>
 <net name="N$1" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="215.9" y1="27.94" x2="215.9" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="27.94" x2="213.36" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -9565,8 +9663,8 @@ but can fall back to SPI1</text>
 <pinref part="J7" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="307.34" y1="35.56" x2="307.34" y2="38.1" width="0.1524" layer="91"/>
-<label x="307.34" y="38.1" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
+<wire x1="312.42" y1="35.56" x2="312.42" y2="38.1" width="0.1524" layer="91"/>
+<label x="312.42" y="38.1" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 <pinref part="S2" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -9799,8 +9897,8 @@ but can fall back to SPI1</text>
 </segment>
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="215.9" y1="35.56" x2="215.9" y2="38.1" width="0.1524" layer="91" style="longdash"/>
-<label x="215.9" y="38.1" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="213.36" y1="35.56" x2="213.36" y2="38.1" width="0.1524" layer="91" style="longdash"/>
+<label x="213.36" y="38.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="SDIO_DAT1/AUD_IN" class="0">
@@ -9827,7 +9925,7 @@ but can fall back to SPI1</text>
 <label x="289.56" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="USB_D-" class="0">
+<net name="USB_N" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="121.92" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
@@ -9839,7 +9937,7 @@ but can fall back to SPI1</text>
 <pinref part="J5" gate="J1" pin="D-"/>
 </segment>
 </net>
-<net name="USB_D+" class="0">
+<net name="USB_P" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="76.2" y1="124.46" x2="73.66" y2="124.46" width="0.1524" layer="91"/>
@@ -9884,14 +9982,14 @@ but can fall back to SPI1</text>
 <pinref part="Y2" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="USB_F_N" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="U5" gate="U1" pin="USB_D-"/>
 <wire x1="86.36" y1="121.92" x2="88.9" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="USB_F_P" class="0">
 <segment>
 <pinref part="U5" gate="U1" pin="USB_D+"/>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -10222,8 +10320,8 @@ but can fall back to SPI1</text>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="2"/>
-<wire x1="259.08" y1="35.56" x2="259.08" y2="38.1" width="0.1524" layer="91"/>
-<label x="259.08" y="38.1" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="276.86" y1="35.56" x2="276.86" y2="38.1" width="0.1524" layer="91"/>
+<label x="276.86" y="38.1" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -10249,6 +10347,13 @@ but can fall back to SPI1</text>
 <segment>
 <pinref part="U5" gate="U1" pin="GPIO5"/>
 <wire x1="124.46" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="243.84" y1="27.94" x2="243.84" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

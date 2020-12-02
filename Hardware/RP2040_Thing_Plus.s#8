@@ -715,26 +715,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </device>
 </devices>
 </deviceset>
-<deviceset name="2.0KOHM1/10W5%(0603)" prefix="R" uservalue="yes">
-<description>RES-08296</description>
-<gates>
-<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="RES-08296"/>
-<attribute name="VALUE" value="2.0k" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="2.2KOHM" prefix="R">
 <description>&lt;h3&gt;2.2kΩ resistor&lt;/h3&gt;
 &lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
@@ -1035,6 +1015,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="RES-14340" constant="no"/>
 <attribute name="VALUE" value="5.1k" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2.0KOHM" prefix="R">
+<description>&lt;h3&gt;2kΩ resistor&lt;/h3&gt;
+&lt;p&gt;A resistor is a passive two-terminal electrical component that implements electrical resistance as a circuit element. Resistors act to reduce current flow, and, at the same time, act to lower voltage levels within circuits. - Wikipedia&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-0603-1/10W-5%" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-08296"/>
+<attribute name="VALUE" value="2.0k"/>
+</technology>
+</technologies>
+</device>
+<device name="-0402T-1/16W-5%" package="0402-TIGHT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8378,12 +8388,9 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
 <part name="D1" library="SparkFun-LED" deviceset="LED-YELLOW" device="0603" value="Yellow"/>
 <part name="Q1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="DMG2307L" value="2.5A/30V"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="2.0KOHM1/10W5%(0603)" device="" value="2.0k"/>
-<part name="C19" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
 <part name="D4" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
 <part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
 <part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL" value="FIDUCIALUFIDUCIAL"/>
@@ -8520,6 +8527,9 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="200OHM" device="-0402T-1/16W-1%"/>
+<part name="C7" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
+<part name="C10" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0402_TIGHT-6.3V-20%-X5R" value="4.7uF"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="2.0KOHM" device="-0402T-1/16W-5%"/>
 </parts>
 <sheets>
 <sheet>
@@ -8590,10 +8600,6 @@ but can fall back to SPI1</text>
 <attribute name="DESIGNER" x="353.314" y="11.176" size="2.7432" layer="94" font="vector"/>
 <attribute name="REV" x="419.1" y="6.604" size="2.7432" layer="94" font="vector"/>
 </instance>
-<instance part="C6" gate="G$1" x="210.82" y="233.68" smashed="yes">
-<attribute name="NAME" x="212.344" y="236.601" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="212.344" y="231.521" size="1.778" layer="96" font="vector"/>
-</instance>
 <instance part="D2" gate="G$1" x="43.18" y="236.22" smashed="yes">
 <attribute name="NAME" x="44.958" y="239.8014" size="1.778" layer="95" font="vector" rot="R180"/>
 <attribute name="VALUE" x="47.752" y="234.4674" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -8605,14 +8611,6 @@ but can fall back to SPI1</text>
 <instance part="Q1" gate="G$1" x="48.26" y="243.84" smashed="yes">
 <attribute name="NAME" x="50.8" y="248.92" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="50.8" y="246.38" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="R6" gate="G$1" x="200.66" y="233.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="199.136" y="233.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="202.184" y="233.68" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="C19" gate="G$1" x="149.86" y="233.68" smashed="yes" rot="MR0">
-<attribute name="NAME" x="148.336" y="236.601" size="1.778" layer="95" font="vector" rot="MR0"/>
-<attribute name="VALUE" x="148.336" y="231.521" size="1.778" layer="96" font="vector" rot="MR0"/>
 </instance>
 <instance part="D4" gate="G$1" x="215.9" y="33.02" smashed="yes">
 <attribute name="NAME" x="212.471" y="28.448" size="1.778" layer="95" font="vector" rot="R90"/>
@@ -9050,6 +9048,17 @@ but can fall back to SPI1</text>
 <instance part="R7" gate="G$1" x="50.8" y="142.24" smashed="yes" rot="R90">
 <attribute name="NAME" x="49.276" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 </instance>
+<instance part="C7" gate="G$1" x="149.86" y="233.68" smashed="yes">
+<attribute name="NAME" x="151.384" y="236.601" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="151.384" y="231.521" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="C10" gate="G$1" x="210.82" y="233.68" smashed="yes">
+<attribute name="NAME" x="212.344" y="236.601" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="212.344" y="231.521" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="R6" gate="G$1" x="200.66" y="233.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="199.136" y="233.68" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9339,9 +9348,9 @@ but can fall back to SPI1</text>
 <pinref part="C9" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="C19" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="226.06" x2="149.86" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="GND4" gate="1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="187.96" y1="238.76" x2="190.5" y2="238.76" width="0.1524" layer="91"/>
@@ -9350,14 +9359,14 @@ but can fall back to SPI1</text>
 <pinref part="U3" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
-<pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="200.66" y1="228.6" x2="200.66" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+<pinref part="R6" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="226.06" x2="210.82" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="226.06" y1="236.22" x2="223.52" y2="236.22" width="0.1524" layer="91"/>
@@ -9439,7 +9448,6 @@ but can fall back to SPI1</text>
 <wire x1="167.64" y1="243.84" x2="157.48" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="243.84" x2="149.86" y2="243.84" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="243.84" x2="149.86" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="C19" gate="G$1" pin="1"/>
 <wire x1="149.86" y1="243.84" x2="149.86" y2="238.76" width="0.1524" layer="91"/>
 <junction x="149.86" y="243.84"/>
 <wire x1="157.48" y1="241.3" x2="157.48" y2="243.84" width="0.1524" layer="91"/>
@@ -9447,6 +9455,7 @@ but can fall back to SPI1</text>
 <pinref part="SUPPLY22" gate="G$1" pin="V_USB"/>
 <pinref part="U3" gate="G$1" pin="VIN"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="C7" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="375.92" y1="243.84" x2="375.92" y2="246.38" width="0.1524" layer="91"/>
@@ -9481,9 +9490,9 @@ but can fall back to SPI1</text>
 <net name="N$14" class="0">
 <segment>
 <wire x1="187.96" y1="241.3" x2="200.66" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="200.66" y1="238.76" x2="200.66" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="U3" gate="G$1" pin="PROG"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="V_BATT" class="0">
@@ -9495,7 +9504,6 @@ but can fall back to SPI1</text>
 <segment>
 <wire x1="226.06" y1="238.76" x2="223.52" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="238.76" x2="223.52" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
 <wire x1="223.52" y1="246.38" x2="223.52" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="238.76" x2="210.82" y2="246.38" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="246.38" x2="210.82" y2="246.38" width="0.1524" layer="91"/>
@@ -9507,6 +9515,7 @@ but can fall back to SPI1</text>
 <pinref part="J4" gate="G$1" pin="+"/>
 <pinref part="SUPPLY27" gate="G$1" pin="V_BATT"/>
 <pinref part="U3" gate="G$1" pin="VBAT"/>
+<pinref part="C10" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="U2" gate="U1" pin="VDD"/>

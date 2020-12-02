@@ -9925,7 +9925,7 @@ but can fall back to SPI1</text>
 <wire x1="137.16" y1="48.26" x2="137.16" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="AVDD" class="0">
 <segment>
 <pinref part="U5" gate="U1" pin="ADC_VDD"/>
 <wire x1="50.8" y1="134.62" x2="50.8" y2="137.16" width="0.1524" layer="91"/>
@@ -9934,6 +9934,13 @@ but can fall back to SPI1</text>
 <junction x="50.8" y="134.62"/>
 <wire x1="88.9" y1="134.62" x2="50.8" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="50.8" y1="134.62" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
+<label x="48.26" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J7" gate="G$1" pin="3"/>
+<wire x1="391.16" y1="83.82" x2="393.7" y2="83.82" width="0.1524" layer="91"/>
+<label x="393.7" y="83.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="ADC2" class="0">
