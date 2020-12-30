@@ -240,6 +240,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
+<package name="0603">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
 <package name="0402-TIGHT">
 <smd name="1" x="-0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
 <smd name="2" x="0.5" y="0" dx="0.6" dy="0.6" layer="1"/>
@@ -15681,10 +15698,10 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <attribute name="PROD_ID" value="CAP-14240" x="14.859" y="26.162" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="14.297" y="26.162" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="R6" library="SparkFun-Resistors" package="0402-TIGHT" value="1k" x="9.144" y="25.654" smashed="yes" rot="R270">
-<attribute name="NAME" x="9.706" y="25.654" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-14342" x="9.144" y="25.654" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="1k" x="8.582" y="25.654" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="R6" library="SparkFun-Resistors" package="0603" value="2.0k" x="9.144" y="25.019" smashed="yes" rot="R270">
+<attribute name="NAME" x="9.706" y="25.019" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-08296" x="9.144" y="25.019" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="2.0k" x="8.582" y="25.019" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="U$1" library="output" package="#_16#0" value="" x="1.651" y="31.75" smashed="yes"/>
 <element name="U$2" library="output" package="#_17#0" value="" x="1.651" y="34.29" smashed="yes"/>
@@ -16061,8 +16078,8 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <signal name="N$14">
 <contactref element="U3" pad="5"/>
 <contactref element="R6" pad="2"/>
-<wire x1="9.144" y1="25.154" x2="9.594" y2="24.704" width="0.127" layer="1"/>
-<wire x1="9.594" y1="24.704" x2="10.6379" y2="24.704" width="0.127" layer="1"/>
+<wire x1="10.6379" y1="24.704" x2="9.679" y2="24.704" width="0.254" layer="1"/>
+<wire x1="9.679" y1="24.704" x2="9.144" y2="24.169" width="0.254" layer="1"/>
 </signal>
 <signal name="V_BATT">
 <contactref element="Q1" pad="3"/>
