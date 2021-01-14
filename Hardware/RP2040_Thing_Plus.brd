@@ -7,18 +7,18 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="14" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -39,13 +39,13 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -53,7 +53,7 @@
 <layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
 <layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
-<layer number="2" name="gndvert" color="10" fill="7" visible="no" active="yes"/>
+<layer number="2" name="gndvert" color="10" fill="7" visible="yes" active="yes"/>
 <layer number="15" name="pwrhorz" color="4" fill="7" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -196,7 +196,7 @@
 <wire x1="2.54" y1="0" x2="0" y2="2.54" width="0.2032" layer="20" curve="-90"/>
 <wire x1="0" y1="2.54" x2="0" y2="55.88" width="0.2032" layer="20"/>
 <wire x1="0" y1="55.88" x2="2.54" y2="58.42" width="0.2032" layer="20" curve="-90"/>
-<text x="0.508" y="4.572" size="1.016" layer="16" font="vector" ratio="20" rot="MR90">v10</text>
+<text x="1.27" y="9.398" size="1.016" layer="16" font="vector" ratio="20" rot="MR90" align="center">v11</text>
 <dimension x1="0" y1="58.42" x2="0" y2="0" x3="-13.97" y3="29.21" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="2.54" y1="55.88" x2="0" y2="0" x3="-11.43" y3="27.94" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
 <dimension x1="0" y1="0" x2="2.286" y2="18.415" x3="-8.763" y3="9.2075" textsize="1.27" textratio="15" layer="47" dtype="vertical" unit="inch"/>
@@ -2026,6 +2026,17 @@ Puhs-Push type.
 <wire x1="3.175" y1="-1.715" x2="3.175" y2="1.715" width="0.127" layer="21"/>
 <text x="-1.5748" y="1.9304" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.8288" y="-2.4638" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+</package>
+<package name="PAD.03X.04">
+<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
+Used as a test point connection for pogo pins or other debugging tools. 
+&lt;p&gt;Specifications:
+&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -15077,11 +15088,16 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <clearance class="2" value="0.1778"/>
 </class>
 </classes>
-<designrules name="SparkFun-4-layer-MicroMod">
-<description language="en">
-&lt;b&gt;SparkFun 4 Layer Design Rule Checks for MicroMods&lt;/b&gt;
+<designrules name="SparkFun-4-Layer-MicroMod-JLCPCB">
+<description language="en">&lt;b&gt;SparkFun 4 Layer Design Rules for MicroMod for JLCPCB&lt;/b&gt;
 &lt;p&gt;
-</description>
+These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capabilities/Capabilities&quot;&gt;published rules by JLCPCB&lt;/a&gt; to produce a 4-layer PCB. But we have needed these tolerances for some very tight layouts. These rules should be avoided unless absolutely necessary and will complicate the ordering process (including some orders being refused).
+&lt;ul&gt;
+&lt;li&gt;4 Layer&lt;/li&gt;
+&lt;li&gt;4mil Trace/Space&lt;/li&gt;
+&lt;li&gt;4mil Annular Rings&lt;/li&gt;
+&lt;li&gt;0.2mm/7.9mil Vias&lt;/li&gt;
+&lt;/ul&gt;</description>
 <param name="layerSetup" value="(1+2*15+16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
@@ -15630,6 +15646,9 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <element name="U$47" library="output" package="THING_PLUS_0" value="" x="16.383" y="34.925" smashed="yes"/>
 <element name="U$43" library="output" package="RP20401" value="" x="6.223" y="14.224" smashed="yes" rot="MR0"/>
 <element name="U$44" library="output" package="THING_PLUS0" value="" x="6.477" y="16.383" smashed="yes" rot="MR0"/>
+<element name="TP1" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="2.54" y="30.48" smashed="yes" rot="MR0"/>
+<element name="TP2" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="5.08" y="30.48" smashed="yes" rot="MR0"/>
+<element name="TP3" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="7.62" y="30.48" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="3.3V">
@@ -15847,7 +15866,7 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <via x="14.351" y="36.9824" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="4.826" y="34.9504" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="8.001" y="24.9174" extent="1-16" drill="0.2" diameter="0.45"/>
-<via x="7.62" y="30.353" extent="1-16" drill="0.2" diameter="0.45"/>
+<via x="7.366" y="27.94" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="15.113" y="20.3454" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="12.954" y="20.3454" extent="1-16" drill="0.2" diameter="0.45"/>
 <via x="14.732" y="18.5674" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -15963,9 +15982,9 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <wire x1="13.2381" y1="27.4019" x2="13.208" y2="27.432" width="0.254" layer="1"/>
 <via x="13.208" y="27.432" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="13.208" y1="27.432" x2="12.954" y2="27.686" width="0.3048" layer="15"/>
-<wire x1="12.954" y1="27.686" x2="5.842" y2="27.686" width="0.3048" layer="15"/>
-<wire x1="5.842" y1="27.686" x2="5.588" y2="27.432" width="0.3048" layer="15"/>
-<wire x1="5.588" y1="27.432" x2="5.588" y2="26.543" width="0.3048" layer="15"/>
+<wire x1="12.954" y1="27.686" x2="8.242" y2="27.686" width="0.3048" layer="15"/>
+<wire x1="5.588" y1="26.543" x2="7.099" y2="26.543" width="0.3048" layer="15"/>
+<wire x1="8.242" y1="27.686" x2="7.099" y2="26.543" width="0.3048" layer="15"/>
 <via x="5.588" y="26.543" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="5.588" y1="26.543" x2="6.477" y2="25.654" width="0.3048" layer="1"/>
 <wire x1="6.477" y1="25.654" x2="6.866" y2="25.654" width="0.3048" layer="1"/>
@@ -15996,17 +16015,13 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <wire x1="7.5275" y1="40.5692875" x2="7.5275" y2="40.895875" width="0.127" layer="1"/>
 <wire x1="8.001" y1="41.369375" x2="8.001" y2="41.8084" width="0.127" layer="1"/>
 <wire x1="7.5275" y1="40.895875" x2="8.001" y2="41.369375" width="0.127" layer="1"/>
-</signal>
-<signal name="!RESET">
-<contactref element="S2" pad="3"/>
-<contactref element="J7" pad="1"/>
-<contactref element="J1" pad="10"/>
-<wire x1="21.59" y1="13.97" x2="21.844" y2="13.716" width="0.127" layer="1"/>
-<wire x1="21.844" y1="13.716" x2="21.844" y2="12.065" width="0.127" layer="1"/>
-<wire x1="21.59" y1="13.97" x2="8.89" y2="13.97" width="0.127" layer="15"/>
-<via x="8.89" y="13.97" extent="1-16" drill="0.2" diameter="0.45"/>
-<wire x1="8.89" y1="13.97" x2="8.89" y2="29.845" width="0.127" layer="2"/>
-<wire x1="8.89" y1="29.845" x2="6.985" y2="31.75" width="0.127" layer="2"/>
+<contactref element="TP2" pad="P$1"/>
+<wire x1="5.08" y1="30.48" x2="4.953" y2="30.48" width="0.127" layer="16"/>
+<wire x1="4.953" y1="30.48" x2="3.048" y2="32.385" width="0.127" layer="16"/>
+<wire x1="3.048" y1="32.385" x2="3.048" y2="37.084" width="0.127" layer="16"/>
+<wire x1="3.048" y1="37.084" x2="3.937" y2="37.973" width="0.127" layer="16"/>
+<wire x1="3.937" y1="37.973" x2="5.842" y2="37.973" width="0.127" layer="16"/>
+<wire x1="5.842" y1="37.973" x2="6.985" y2="36.83" width="0.127" layer="16"/>
 </signal>
 <signal name="EN">
 <contactref element="J8" pad="2"/>
@@ -16152,6 +16167,26 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </signal>
 <signal name="!RESET!">
 <contactref element="U5" pad="26"/>
+<contactref element="S2" pad="3"/>
+<contactref element="J7" pad="1"/>
+<contactref element="J1" pad="10"/>
+<wire x1="21.59" y1="13.97" x2="21.844" y2="13.716" width="0.127" layer="1"/>
+<wire x1="21.844" y1="13.716" x2="21.844" y2="12.065" width="0.127" layer="1"/>
+<wire x1="21.59" y1="13.97" x2="8.89" y2="13.97" width="0.127" layer="15"/>
+<via x="8.89" y="13.97" extent="1-16" drill="0.2" diameter="0.45"/>
+<wire x1="8.89" y1="13.97" x2="8.89" y2="29.845" width="0.127" layer="2"/>
+<wire x1="8.89" y1="29.845" x2="6.985" y2="31.75" width="0.127" layer="2"/>
+<contactref element="TP3" pad="P$1"/>
+<wire x1="6.985" y1="31.75" x2="7.62" y2="31.115" width="0.127" layer="16"/>
+<wire x1="7.62" y1="31.115" x2="7.62" y2="30.48" width="0.127" layer="16"/>
+<wire x1="8.6285" y1="41.507" x2="8.7378" y2="41.6163" width="0.127" layer="1"/>
+<wire x1="8.7378" y1="41.6163" x2="9.8" y2="41.6163" width="0.127" layer="1"/>
+<via x="9.8" y="41.6163" extent="1-16" drill="0.2" diameter="0.45"/>
+<wire x1="7.5835" y1="32.4309375" x2="7.5835" y2="32.3485" width="0.127" layer="2"/>
+<wire x1="7.5835" y1="32.3485" x2="6.985" y2="31.75" width="0.127" layer="2"/>
+<wire x1="9.8" y1="41.6163" x2="9.5" y2="41.3163" width="0.127" layer="2"/>
+<wire x1="9.5" y1="41.3163" x2="9.5" y2="34.3474375" width="0.127" layer="2"/>
+<wire x1="9.5" y1="34.3474375" x2="7.5835" y2="32.4309375" width="0.127" layer="2"/>
 </signal>
 <signal name="SWDCK">
 <contactref element="U5" pad="24"/>
@@ -16159,8 +16194,20 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <wire x1="8.6285" y1="42.307" x2="9.509" y2="42.307" width="0.127" layer="1"/>
 <wire x1="9.509" y1="42.307" x2="9.525" y2="42.291" width="0.127" layer="1"/>
 <via x="9.525" y="42.291" extent="1-16" drill="0.2" diameter="0.45"/>
-<wire x1="9.525" y1="42.291" x2="9.525" y2="38.1" width="0.127" layer="16"/>
-<wire x1="9.525" y1="38.1" x2="6.985" y2="35.56" width="0.127" layer="16"/>
+<contactref element="TP1" pad="P$1"/>
+<wire x1="9.5125" y1="38.0875" x2="8.6995" y2="37.2745" width="0.127" layer="16"/>
+<wire x1="8.6995" y1="37.2745" x2="6.985" y2="35.56" width="0.127" layer="16"/>
+<wire x1="2.54" y1="30.48" x2="2.54" y2="37.846" width="0.127" layer="16"/>
+<wire x1="2.54" y1="37.846" x2="3.429" y2="38.735" width="0.127" layer="16"/>
+<wire x1="7.0506125" y1="37.8889" x2="8.0851" y2="37.8889" width="0.127" layer="16"/>
+<wire x1="8.0851" y1="37.8889" x2="8.6995" y2="37.2745" width="0.127" layer="16"/>
+<wire x1="3.429" y1="38.735" x2="6.2045125" y2="38.735" width="0.127" layer="16"/>
+<wire x1="6.2045125" y1="38.735" x2="7.0506125" y2="37.8889" width="0.127" layer="16"/>
+<wire x1="9.525" y1="42.291" x2="9.525" y2="41.923975" width="0.127" layer="16"/>
+<wire x1="9.525" y1="41.923975" x2="9.3587" y2="41.757675" width="0.127" layer="16"/>
+<wire x1="9.3587" y1="41.757675" x2="9.3587" y2="41.474925" width="0.127" layer="16"/>
+<wire x1="9.3587" y1="41.474925" x2="9.5125" y2="41.321125" width="0.127" layer="16"/>
+<wire x1="9.5125" y1="41.321125" x2="9.5125" y2="38.0875" width="0.127" layer="16"/>
 </signal>
 <signal name="SPI_SCK1/SDIO_CLK">
 <contactref element="U5" pad="17"/>
@@ -16549,8 +16596,9 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <wire x1="7.116" y1="29.714" x2="7.112" y2="29.718" width="0.127" layer="1"/>
 <via x="7.112" y="29.718" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="3.556" y1="7.874" x2="5.842" y2="7.874" width="0.127" layer="2"/>
-<wire x1="7.112" y1="9.144" x2="7.112" y2="29.718" width="0.127" layer="2"/>
-<wire x1="5.842" y1="7.874" x2="7.112" y2="9.144" width="0.127" layer="2"/>
+<wire x1="6.912" y1="29.518" x2="7.112" y2="29.718" width="0.127" layer="2"/>
+<wire x1="6.912" y1="29.518" x2="6.912" y2="8.944" width="0.127" layer="2"/>
+<wire x1="5.842" y1="7.874" x2="6.912" y2="8.944" width="0.127" layer="2"/>
 <wire x1="11.865" y1="39.8705" x2="11.865" y2="40.567" width="0.127" layer="1"/>
 <wire x1="11.865" y1="40.567" x2="12.319" y2="41.021" width="0.127" layer="1"/>
 <via x="12.319" y="41.021" extent="1-16" drill="0.2" diameter="0.45"/>
@@ -16665,8 +16713,9 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 <wire x1="11.43" y1="35.306" x2="11.43" y2="32.131" width="0.127" layer="1"/>
 <wire x1="11.43" y1="32.131" x2="10.922" y2="31.623" width="0.127" layer="1"/>
 <wire x1="10.922" y1="31.623" x2="8.89" y2="31.623" width="0.127" layer="1"/>
-<wire x1="8.89" y1="31.623" x2="8.116" y2="30.849" width="0.127" layer="1"/>
-<wire x1="8.116" y1="30.849" x2="8.116" y2="28.93" width="0.127" layer="1"/>
+<wire x1="8.89" y1="31.623" x2="8.243" y2="30.976" width="0.127" layer="1"/>
+<wire x1="8.243" y1="30.976" x2="8.243" y2="29.057" width="0.127" layer="1"/>
+<wire x1="8.243" y1="29.057" x2="8.116" y2="28.93" width="0.127" layer="1"/>
 </signal>
 <signal name="WS2812_DO">
 <contactref element="J7" pad="16"/>
@@ -16734,14 +16783,15 @@ Pasted was reduced by 40% width on the center ground pad, and some amount on the
 </mfgpreviewcolors>
 <errors>
 <approved hash="19,1,1c231de8078a0641"/>
+<approved hash="19,1,9a07997e029c01e5"/>
+<approved hash="19,1,18031838025a0261"/>
+<approved hash="19,1,1f251eec050e04c7"/>
 <approved hash="19,1,49604a5aefb8ec82"/>
 <approved hash="19,1,cd22cce8e90ae8c0"/>
 <approved hash="19,1,9f219e3a04580543"/>
-<approved hash="19,1,1f251eec050e04c7"/>
-<approved hash="19,1,9a07997e029c01e5"/>
-<approved hash="19,1,18031838025a0261"/>
-<approved hash="19,16,8d69964f57c18aca"/>
+<approved hash="19,1,0825092c034e0247"/>
 <approved hash="19,16,b5a999d6ee3754f4"/>
+<approved hash="19,16,8d69964f57c18aca"/>
 </errors>
 </board>
 </drawing>
