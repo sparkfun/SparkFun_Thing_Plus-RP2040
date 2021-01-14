@@ -1,4 +1,4 @@
-description[en] = \n\n<b>SparkFun 4 Layer Design Rule Checks for MicroMods</b>\n<p>\n
+description[en] = \n<b>SparkFun 4 Layer Design Rules for MicroMod for JLCPCB</b>\n<p>\nThese design rules are smaller than the <a href="https://jlcpcb.com/capabilities/Capabilities">published rules by JLCPCB</a> to produce a 4-layer PCB. But we have needed these tolerances for some very tight layouts. These rules should be avoided unless absolutely necessary and will complicate the ordering process (including some orders being refused).\n<ul>\n<li>4 Layer</li>\n<li>4mil Trace/Space</li>\n<li>4mil Annular Rings</li>\n<li>0.2mm/7.9mil Vias</li>\n</ul>
 layerSetup = (1+2*15+16)
 mtCopper = 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm
 mtIsolate = 1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm
