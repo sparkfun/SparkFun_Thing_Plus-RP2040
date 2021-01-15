@@ -16566,7 +16566,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$28" library="output" package="##RESET##0" value="" x="21.082" y="13.97" smashed="yes"/>
 <element name="U$60" library="output" package="#WS2812#0" value="" x="11.43" y="56.642" smashed="yes"/>
 <element name="U$64" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="6.731" y="9.398" smashed="yes" rot="R270"/>
-<element name="U$32" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="8.89" y="18.415" smashed="yes" rot="MR0"/>
+<element name="U$32" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="9.017" y="18.923" smashed="yes" rot="MR0"/>
 <element name="U$54" library="output" package="250" value="" x="11.43" y="34.29" smashed="yes"/>
 <element name="U$55" library="output" package="CHARGE0" value="" x="11.43" y="31.75" smashed="yes"/>
 <element name="U$56" library="output" package="BOOT0" value="" x="11.43" y="13.97" smashed="yes"/>
@@ -16606,11 +16606,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$17" library="output" package="#I�C#0" value="" x="6.6294" y="9.525" smashed="yes" rot="MR90"/>
 <element name="U$45" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="14.351" y="36.5506" smashed="yes"/>
 <element name="U$47" library="output" package="THING_PLUS_0" value="" x="16.383" y="34.925" smashed="yes"/>
-<element name="U$44" library="output" package="THING_PLUS0" value="" x="6.477" y="16.383" smashed="yes" rot="MR0"/>
+<element name="U$44" library="output" package="THING_PLUS0" value="" x="6.35" y="17.145" smashed="yes" rot="MR0"/>
 <element name="TP1" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="2.54" y="30.48" smashed="yes" rot="MR0"/>
 <element name="TP2" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="5.08" y="30.48" smashed="yes" rot="MR0"/>
 <element name="TP3" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="7.62" y="30.48" smashed="yes" rot="MR0"/>
-<element name="U$30" library="RP2040" package="RP2040_20" value="" x="5.715" y="13.335" smashed="yes" rot="MR0"/>
+<element name="U$30" library="RP2040" package="RP2040_20" value="" x="5.842" y="14.478" smashed="yes" rot="MR0"/>
 <element name="U$29" library="RP2040" package="RP2040_10" value="" x="16.383" y="33.274" smashed="yes"/>
 <element name="D5" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="38.608" y="16.51" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.37" y="16.51" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -16942,7 +16942,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$87" library="output" package="##RESET##0" value="" x="44.45" y="13.97" smashed="yes"/>
 <element name="U$88" library="output" package="#WS2812#0" value="" x="34.798" y="56.642" smashed="yes"/>
 <element name="U$89" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="30.099" y="9.398" smashed="yes" rot="R270"/>
-<element name="U$90" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="32.258" y="18.415" smashed="yes" rot="MR0"/>
+<element name="U$90" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="32.385" y="18.923" smashed="yes" rot="MR0"/>
 <element name="U$91" library="output" package="250" value="" x="34.798" y="34.29" smashed="yes"/>
 <element name="U$92" library="output" package="CHARGE0" value="" x="34.798" y="31.75" smashed="yes"/>
 <element name="U$93" library="output" package="BOOT0" value="" x="34.798" y="13.97" smashed="yes"/>
@@ -16982,11 +16982,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$117" library="output" package="#I�C#0" value="" x="29.9974" y="9.525" smashed="yes" rot="MR90"/>
 <element name="U$118" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="37.719" y="36.5506" smashed="yes"/>
 <element name="U$119" library="output" package="THING_PLUS_0" value="" x="39.751" y="34.925" smashed="yes"/>
-<element name="U$120" library="output" package="THING_PLUS0" value="" x="29.845" y="16.383" smashed="yes" rot="MR0"/>
+<element name="U$120" library="output" package="THING_PLUS0" value="" x="29.718" y="17.145" smashed="yes" rot="MR0"/>
 <element name="TP4" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="25.908" y="30.48" smashed="yes" rot="MR0"/>
 <element name="TP5" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="28.448" y="30.48" smashed="yes" rot="MR0"/>
 <element name="TP6" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="30.988" y="30.48" smashed="yes" rot="MR0"/>
-<element name="U$121" library="RP2040" package="RP2040_20" value="" x="29.083" y="13.335" smashed="yes" rot="MR0"/>
+<element name="U$121" library="RP2040" package="RP2040_20" value="" x="29.21" y="14.478" smashed="yes" rot="MR0"/>
 <element name="U$122" library="RP2040" package="RP2040_10" value="" x="39.751" y="33.274" smashed="yes"/>
 <element name="D9" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="61.976" y="16.51" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.738" y="16.51" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -17318,7 +17318,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$148" library="output" package="##RESET##0" value="" x="67.818" y="13.97" smashed="yes"/>
 <element name="U$149" library="output" package="#WS2812#0" value="" x="58.166" y="56.642" smashed="yes"/>
 <element name="U$150" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="53.467" y="9.398" smashed="yes" rot="R270"/>
-<element name="U$151" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="55.626" y="18.415" smashed="yes" rot="MR0"/>
+<element name="U$151" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="55.753" y="18.923" smashed="yes" rot="MR0"/>
 <element name="U$152" library="output" package="250" value="" x="58.166" y="34.29" smashed="yes"/>
 <element name="U$153" library="output" package="CHARGE0" value="" x="58.166" y="31.75" smashed="yes"/>
 <element name="U$154" library="output" package="BOOT0" value="" x="58.166" y="13.97" smashed="yes"/>
@@ -17358,11 +17358,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$178" library="output" package="#I�C#0" value="" x="53.3654" y="9.525" smashed="yes" rot="MR90"/>
 <element name="U$179" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="61.087" y="36.5506" smashed="yes"/>
 <element name="U$180" library="output" package="THING_PLUS_0" value="" x="63.119" y="34.925" smashed="yes"/>
-<element name="U$181" library="output" package="THING_PLUS0" value="" x="53.213" y="16.383" smashed="yes" rot="MR0"/>
+<element name="U$181" library="output" package="THING_PLUS0" value="" x="53.086" y="17.145" smashed="yes" rot="MR0"/>
 <element name="TP7" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="49.276" y="30.48" smashed="yes" rot="MR0"/>
 <element name="TP8" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="51.816" y="30.48" smashed="yes" rot="MR0"/>
 <element name="TP9" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="54.356" y="30.48" smashed="yes" rot="MR0"/>
-<element name="U$182" library="RP2040" package="RP2040_20" value="" x="52.451" y="13.335" smashed="yes" rot="MR0"/>
+<element name="U$182" library="RP2040" package="RP2040_20" value="" x="52.578" y="14.478" smashed="yes" rot="MR0"/>
 <element name="U$183" library="RP2040" package="RP2040_10" value="" x="63.119" y="33.274" smashed="yes"/>
 <element name="D13" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="85.344" y="16.51" smashed="yes" rot="R270">
 <attribute name="NAME" x="86.106" y="16.51" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -17694,7 +17694,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$209" library="output" package="##RESET##0" value="" x="91.186" y="13.97" smashed="yes"/>
 <element name="U$210" library="output" package="#WS2812#0" value="" x="81.534" y="56.642" smashed="yes"/>
 <element name="U$211" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="76.835" y="9.398" smashed="yes" rot="R270"/>
-<element name="U$212" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="78.994" y="18.415" smashed="yes" rot="MR0"/>
+<element name="U$212" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="79.121" y="18.923" smashed="yes" rot="MR0"/>
 <element name="U$213" library="output" package="250" value="" x="81.534" y="34.29" smashed="yes"/>
 <element name="U$214" library="output" package="CHARGE0" value="" x="81.534" y="31.75" smashed="yes"/>
 <element name="U$215" library="output" package="BOOT0" value="" x="81.534" y="13.97" smashed="yes"/>
@@ -17734,11 +17734,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$239" library="output" package="#I�C#0" value="" x="76.7334" y="9.525" smashed="yes" rot="MR90"/>
 <element name="U$240" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="84.455" y="36.5506" smashed="yes"/>
 <element name="U$241" library="output" package="THING_PLUS_0" value="" x="86.487" y="34.925" smashed="yes"/>
-<element name="U$242" library="output" package="THING_PLUS0" value="" x="76.581" y="16.383" smashed="yes" rot="MR0"/>
+<element name="U$242" library="output" package="THING_PLUS0" value="" x="76.454" y="17.145" smashed="yes" rot="MR0"/>
 <element name="TP10" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="72.644" y="30.48" smashed="yes" rot="MR0"/>
 <element name="TP11" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="75.184" y="30.48" smashed="yes" rot="MR0"/>
 <element name="TP12" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="77.724" y="30.48" smashed="yes" rot="MR0"/>
-<element name="U$243" library="RP2040" package="RP2040_20" value="" x="75.819" y="13.335" smashed="yes" rot="MR0"/>
+<element name="U$243" library="RP2040" package="RP2040_20" value="" x="75.946" y="14.478" smashed="yes" rot="MR0"/>
 <element name="U$244" library="RP2040" package="RP2040_10" value="" x="86.487" y="33.274" smashed="yes"/>
 <element name="D17" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="15.24" y="77.978" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.002" y="77.978" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -18070,7 +18070,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$270" library="output" package="##RESET##0" value="" x="21.082" y="75.438" smashed="yes"/>
 <element name="U$271" library="output" package="#WS2812#0" value="" x="11.43" y="118.11" smashed="yes"/>
 <element name="U$272" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="6.731" y="70.866" smashed="yes" rot="R270"/>
-<element name="U$273" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="8.89" y="79.883" smashed="yes" rot="MR0"/>
+<element name="U$273" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="9.017" y="80.391" smashed="yes" rot="MR0"/>
 <element name="U$274" library="output" package="250" value="" x="11.43" y="95.758" smashed="yes"/>
 <element name="U$275" library="output" package="CHARGE0" value="" x="11.43" y="93.218" smashed="yes"/>
 <element name="U$276" library="output" package="BOOT0" value="" x="11.43" y="75.438" smashed="yes"/>
@@ -18110,11 +18110,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$300" library="output" package="#I�C#0" value="" x="6.6294" y="70.993" smashed="yes" rot="MR90"/>
 <element name="U$301" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="14.351" y="98.0186" smashed="yes"/>
 <element name="U$302" library="output" package="THING_PLUS_0" value="" x="16.383" y="96.393" smashed="yes"/>
-<element name="U$303" library="output" package="THING_PLUS0" value="" x="6.477" y="77.851" smashed="yes" rot="MR0"/>
+<element name="U$303" library="output" package="THING_PLUS0" value="" x="6.35" y="78.613" smashed="yes" rot="MR0"/>
 <element name="TP13" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="2.54" y="91.948" smashed="yes" rot="MR0"/>
 <element name="TP14" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="5.08" y="91.948" smashed="yes" rot="MR0"/>
 <element name="TP15" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="7.62" y="91.948" smashed="yes" rot="MR0"/>
-<element name="U$304" library="RP2040" package="RP2040_20" value="" x="5.715" y="74.803" smashed="yes" rot="MR0"/>
+<element name="U$304" library="RP2040" package="RP2040_20" value="" x="5.842" y="75.946" smashed="yes" rot="MR0"/>
 <element name="U$305" library="RP2040" package="RP2040_10" value="" x="16.383" y="94.742" smashed="yes"/>
 <element name="D21" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="38.608" y="77.978" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.37" y="77.978" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -18446,7 +18446,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$331" library="output" package="##RESET##0" value="" x="44.45" y="75.438" smashed="yes"/>
 <element name="U$332" library="output" package="#WS2812#0" value="" x="34.798" y="118.11" smashed="yes"/>
 <element name="U$333" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="30.099" y="70.866" smashed="yes" rot="R270"/>
-<element name="U$334" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="32.258" y="79.883" smashed="yes" rot="MR0"/>
+<element name="U$334" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="32.385" y="80.391" smashed="yes" rot="MR0"/>
 <element name="U$335" library="output" package="250" value="" x="34.798" y="95.758" smashed="yes"/>
 <element name="U$336" library="output" package="CHARGE0" value="" x="34.798" y="93.218" smashed="yes"/>
 <element name="U$337" library="output" package="BOOT0" value="" x="34.798" y="75.438" smashed="yes"/>
@@ -18486,11 +18486,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$361" library="output" package="#I�C#0" value="" x="29.9974" y="70.993" smashed="yes" rot="MR90"/>
 <element name="U$362" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="37.719" y="98.0186" smashed="yes"/>
 <element name="U$363" library="output" package="THING_PLUS_0" value="" x="39.751" y="96.393" smashed="yes"/>
-<element name="U$364" library="output" package="THING_PLUS0" value="" x="29.845" y="77.851" smashed="yes" rot="MR0"/>
+<element name="U$364" library="output" package="THING_PLUS0" value="" x="29.718" y="78.613" smashed="yes" rot="MR0"/>
 <element name="TP16" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="25.908" y="91.948" smashed="yes" rot="MR0"/>
 <element name="TP17" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="28.448" y="91.948" smashed="yes" rot="MR0"/>
 <element name="TP18" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="30.988" y="91.948" smashed="yes" rot="MR0"/>
-<element name="U$365" library="RP2040" package="RP2040_20" value="" x="29.083" y="74.803" smashed="yes" rot="MR0"/>
+<element name="U$365" library="RP2040" package="RP2040_20" value="" x="29.21" y="75.946" smashed="yes" rot="MR0"/>
 <element name="U$366" library="RP2040" package="RP2040_10" value="" x="39.751" y="94.742" smashed="yes"/>
 <element name="D25" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="61.976" y="77.978" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.738" y="77.978" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -18822,7 +18822,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$392" library="output" package="##RESET##0" value="" x="67.818" y="75.438" smashed="yes"/>
 <element name="U$393" library="output" package="#WS2812#0" value="" x="58.166" y="118.11" smashed="yes"/>
 <element name="U$394" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="53.467" y="70.866" smashed="yes" rot="R270"/>
-<element name="U$395" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="55.626" y="79.883" smashed="yes" rot="MR0"/>
+<element name="U$395" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="55.753" y="80.391" smashed="yes" rot="MR0"/>
 <element name="U$396" library="output" package="250" value="" x="58.166" y="95.758" smashed="yes"/>
 <element name="U$397" library="output" package="CHARGE0" value="" x="58.166" y="93.218" smashed="yes"/>
 <element name="U$398" library="output" package="BOOT0" value="" x="58.166" y="75.438" smashed="yes"/>
@@ -18862,11 +18862,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$422" library="output" package="#I�C#0" value="" x="53.3654" y="70.993" smashed="yes" rot="MR90"/>
 <element name="U$423" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="61.087" y="98.0186" smashed="yes"/>
 <element name="U$424" library="output" package="THING_PLUS_0" value="" x="63.119" y="96.393" smashed="yes"/>
-<element name="U$425" library="output" package="THING_PLUS0" value="" x="53.213" y="77.851" smashed="yes" rot="MR0"/>
+<element name="U$425" library="output" package="THING_PLUS0" value="" x="53.086" y="78.613" smashed="yes" rot="MR0"/>
 <element name="TP19" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="49.276" y="91.948" smashed="yes" rot="MR0"/>
 <element name="TP20" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="51.816" y="91.948" smashed="yes" rot="MR0"/>
 <element name="TP21" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="54.356" y="91.948" smashed="yes" rot="MR0"/>
-<element name="U$426" library="RP2040" package="RP2040_20" value="" x="52.451" y="74.803" smashed="yes" rot="MR0"/>
+<element name="U$426" library="RP2040" package="RP2040_20" value="" x="52.578" y="75.946" smashed="yes" rot="MR0"/>
 <element name="U$427" library="RP2040" package="RP2040_10" value="" x="63.119" y="94.742" smashed="yes"/>
 <element name="D29" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="85.344" y="77.978" smashed="yes" rot="R270">
 <attribute name="NAME" x="86.106" y="77.978" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -19198,7 +19198,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$453" library="output" package="##RESET##0" value="" x="91.186" y="75.438" smashed="yes"/>
 <element name="U$454" library="output" package="#WS2812#0" value="" x="81.534" y="118.11" smashed="yes"/>
 <element name="U$455" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="76.835" y="70.866" smashed="yes" rot="R270"/>
-<element name="U$456" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="78.994" y="79.883" smashed="yes" rot="MR0"/>
+<element name="U$456" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="79.121" y="80.391" smashed="yes" rot="MR0"/>
 <element name="U$457" library="output" package="250" value="" x="81.534" y="95.758" smashed="yes"/>
 <element name="U$458" library="output" package="CHARGE0" value="" x="81.534" y="93.218" smashed="yes"/>
 <element name="U$459" library="output" package="BOOT0" value="" x="81.534" y="75.438" smashed="yes"/>
@@ -19238,11 +19238,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$483" library="output" package="#I�C#0" value="" x="76.7334" y="70.993" smashed="yes" rot="MR90"/>
 <element name="U$484" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="84.455" y="98.0186" smashed="yes"/>
 <element name="U$485" library="output" package="THING_PLUS_0" value="" x="86.487" y="96.393" smashed="yes"/>
-<element name="U$486" library="output" package="THING_PLUS0" value="" x="76.581" y="77.851" smashed="yes" rot="MR0"/>
+<element name="U$486" library="output" package="THING_PLUS0" value="" x="76.454" y="78.613" smashed="yes" rot="MR0"/>
 <element name="TP22" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="72.644" y="91.948" smashed="yes" rot="MR0"/>
 <element name="TP23" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="75.184" y="91.948" smashed="yes" rot="MR0"/>
 <element name="TP24" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="77.724" y="91.948" smashed="yes" rot="MR0"/>
-<element name="U$487" library="RP2040" package="RP2040_20" value="" x="75.819" y="74.803" smashed="yes" rot="MR0"/>
+<element name="U$487" library="RP2040" package="RP2040_20" value="" x="75.946" y="75.946" smashed="yes" rot="MR0"/>
 <element name="U$488" library="RP2040" package="RP2040_10" value="" x="86.487" y="94.742" smashed="yes"/>
 <element name="D33" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="15.24" y="139.446" smashed="yes" rot="R270">
 <attribute name="NAME" x="16.002" y="139.446" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -19574,7 +19574,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$514" library="output" package="##RESET##0" value="" x="21.082" y="136.906" smashed="yes"/>
 <element name="U$515" library="output" package="#WS2812#0" value="" x="11.43" y="179.578" smashed="yes"/>
 <element name="U$516" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="6.731" y="132.334" smashed="yes" rot="R270"/>
-<element name="U$517" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="8.89" y="141.351" smashed="yes" rot="MR0"/>
+<element name="U$517" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="9.017" y="141.859" smashed="yes" rot="MR0"/>
 <element name="U$518" library="output" package="250" value="" x="11.43" y="157.226" smashed="yes"/>
 <element name="U$519" library="output" package="CHARGE0" value="" x="11.43" y="154.686" smashed="yes"/>
 <element name="U$520" library="output" package="BOOT0" value="" x="11.43" y="136.906" smashed="yes"/>
@@ -19614,11 +19614,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$544" library="output" package="#I�C#0" value="" x="6.6294" y="132.461" smashed="yes" rot="MR90"/>
 <element name="U$545" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="14.351" y="159.4866" smashed="yes"/>
 <element name="U$546" library="output" package="THING_PLUS_0" value="" x="16.383" y="157.861" smashed="yes"/>
-<element name="U$547" library="output" package="THING_PLUS0" value="" x="6.477" y="139.319" smashed="yes" rot="MR0"/>
+<element name="U$547" library="output" package="THING_PLUS0" value="" x="6.35" y="140.081" smashed="yes" rot="MR0"/>
 <element name="TP25" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="2.54" y="153.416" smashed="yes" rot="MR0"/>
 <element name="TP26" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="5.08" y="153.416" smashed="yes" rot="MR0"/>
 <element name="TP27" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="7.62" y="153.416" smashed="yes" rot="MR0"/>
-<element name="U$548" library="RP2040" package="RP2040_20" value="" x="5.715" y="136.271" smashed="yes" rot="MR0"/>
+<element name="U$548" library="RP2040" package="RP2040_20" value="" x="5.842" y="137.414" smashed="yes" rot="MR0"/>
 <element name="U$549" library="RP2040" package="RP2040_10" value="" x="16.383" y="156.21" smashed="yes"/>
 <element name="D37" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="38.608" y="139.446" smashed="yes" rot="R270">
 <attribute name="NAME" x="39.37" y="139.446" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -19950,7 +19950,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$575" library="output" package="##RESET##0" value="" x="44.45" y="136.906" smashed="yes"/>
 <element name="U$576" library="output" package="#WS2812#0" value="" x="34.798" y="179.578" smashed="yes"/>
 <element name="U$577" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="30.099" y="132.334" smashed="yes" rot="R270"/>
-<element name="U$578" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="32.258" y="141.351" smashed="yes" rot="MR0"/>
+<element name="U$578" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="32.385" y="141.859" smashed="yes" rot="MR0"/>
 <element name="U$579" library="output" package="250" value="" x="34.798" y="157.226" smashed="yes"/>
 <element name="U$580" library="output" package="CHARGE0" value="" x="34.798" y="154.686" smashed="yes"/>
 <element name="U$581" library="output" package="BOOT0" value="" x="34.798" y="136.906" smashed="yes"/>
@@ -19990,11 +19990,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$605" library="output" package="#I�C#0" value="" x="29.9974" y="132.461" smashed="yes" rot="MR90"/>
 <element name="U$606" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="37.719" y="159.4866" smashed="yes"/>
 <element name="U$607" library="output" package="THING_PLUS_0" value="" x="39.751" y="157.861" smashed="yes"/>
-<element name="U$608" library="output" package="THING_PLUS0" value="" x="29.845" y="139.319" smashed="yes" rot="MR0"/>
+<element name="U$608" library="output" package="THING_PLUS0" value="" x="29.718" y="140.081" smashed="yes" rot="MR0"/>
 <element name="TP28" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="25.908" y="153.416" smashed="yes" rot="MR0"/>
 <element name="TP29" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="28.448" y="153.416" smashed="yes" rot="MR0"/>
 <element name="TP30" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="30.988" y="153.416" smashed="yes" rot="MR0"/>
-<element name="U$609" library="RP2040" package="RP2040_20" value="" x="29.083" y="136.271" smashed="yes" rot="MR0"/>
+<element name="U$609" library="RP2040" package="RP2040_20" value="" x="29.21" y="137.414" smashed="yes" rot="MR0"/>
 <element name="U$610" library="RP2040" package="RP2040_10" value="" x="39.751" y="156.21" smashed="yes"/>
 <element name="D41" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="61.976" y="139.446" smashed="yes" rot="R270">
 <attribute name="NAME" x="62.738" y="139.446" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -20326,7 +20326,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$636" library="output" package="##RESET##0" value="" x="67.818" y="136.906" smashed="yes"/>
 <element name="U$637" library="output" package="#WS2812#0" value="" x="58.166" y="179.578" smashed="yes"/>
 <element name="U$638" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="53.467" y="132.334" smashed="yes" rot="R270"/>
-<element name="U$639" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="55.626" y="141.351" smashed="yes" rot="MR0"/>
+<element name="U$639" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="55.753" y="141.859" smashed="yes" rot="MR0"/>
 <element name="U$640" library="output" package="250" value="" x="58.166" y="157.226" smashed="yes"/>
 <element name="U$641" library="output" package="CHARGE0" value="" x="58.166" y="154.686" smashed="yes"/>
 <element name="U$642" library="output" package="BOOT0" value="" x="58.166" y="136.906" smashed="yes"/>
@@ -20366,11 +20366,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$666" library="output" package="#I�C#0" value="" x="53.3654" y="132.461" smashed="yes" rot="MR90"/>
 <element name="U$667" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="61.087" y="159.4866" smashed="yes"/>
 <element name="U$668" library="output" package="THING_PLUS_0" value="" x="63.119" y="157.861" smashed="yes"/>
-<element name="U$669" library="output" package="THING_PLUS0" value="" x="53.213" y="139.319" smashed="yes" rot="MR0"/>
+<element name="U$669" library="output" package="THING_PLUS0" value="" x="53.086" y="140.081" smashed="yes" rot="MR0"/>
 <element name="TP31" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="49.276" y="153.416" smashed="yes" rot="MR0"/>
 <element name="TP32" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="51.816" y="153.416" smashed="yes" rot="MR0"/>
 <element name="TP33" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="54.356" y="153.416" smashed="yes" rot="MR0"/>
-<element name="U$670" library="RP2040" package="RP2040_20" value="" x="52.451" y="136.271" smashed="yes" rot="MR0"/>
+<element name="U$670" library="RP2040" package="RP2040_20" value="" x="52.578" y="137.414" smashed="yes" rot="MR0"/>
 <element name="U$671" library="RP2040" package="RP2040_10" value="" x="63.119" y="156.21" smashed="yes"/>
 <element name="D45" library="SparkFun-DiscreteSemi" package="SOD-323" value="1A/23V/620mV" x="85.344" y="139.446" smashed="yes" rot="R270">
 <attribute name="NAME" x="86.106" y="139.446" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -20702,7 +20702,7 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$697" library="output" package="##RESET##0" value="" x="91.186" y="136.906" smashed="yes"/>
 <element name="U$698" library="output" package="#WS2812#0" value="" x="81.534" y="179.578" smashed="yes"/>
 <element name="U$699" library="SparkFun-Aesthetics" package="QWIIC_4MM" value="" x="76.835" y="132.334" smashed="yes" rot="R270"/>
-<element name="U$700" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="78.994" y="141.351" smashed="yes" rot="MR0"/>
+<element name="U$700" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="" x="79.121" y="141.859" smashed="yes" rot="MR0"/>
 <element name="U$701" library="output" package="250" value="" x="81.534" y="157.226" smashed="yes"/>
 <element name="U$702" library="output" package="CHARGE0" value="" x="81.534" y="154.686" smashed="yes"/>
 <element name="U$703" library="output" package="BOOT0" value="" x="81.534" y="136.906" smashed="yes"/>
@@ -20742,11 +20742,11 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <element name="U$727" library="output" package="#I�C#0" value="" x="76.7334" y="132.461" smashed="yes" rot="MR90"/>
 <element name="U$728" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.1" value="" x="84.455" y="159.4866" smashed="yes"/>
 <element name="U$729" library="output" package="THING_PLUS_0" value="" x="86.487" y="157.861" smashed="yes"/>
-<element name="U$730" library="output" package="THING_PLUS0" value="" x="76.581" y="139.319" smashed="yes" rot="MR0"/>
+<element name="U$730" library="output" package="THING_PLUS0" value="" x="76.454" y="140.081" smashed="yes" rot="MR0"/>
 <element name="TP34" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="72.644" y="153.416" smashed="yes" rot="MR0"/>
 <element name="TP35" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="75.184" y="153.416" smashed="yes" rot="MR0"/>
 <element name="TP36" library="SparkFun-Connectors" package="PAD.03X.04" value="" x="77.724" y="153.416" smashed="yes" rot="MR0"/>
-<element name="U$731" library="RP2040" package="RP2040_20" value="" x="75.819" y="136.271" smashed="yes" rot="MR0"/>
+<element name="U$731" library="RP2040" package="RP2040_20" value="" x="75.946" y="137.414" smashed="yes" rot="MR0"/>
 <element name="U$732" library="RP2040" package="RP2040_10" value="" x="86.487" y="156.21" smashed="yes"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="6.858" y="185.9915" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="6.858" y="185.9915" smashed="yes" rot="MR0"/>
@@ -21396,8 +21396,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP3" pad="P$1"/>
 <wire x1="6.985" y1="31.75" x2="7.62" y2="31.115" width="0.127" layer="16"/>
 <wire x1="7.62" y1="31.115" x2="7.62" y2="30.48" width="0.127" layer="16"/>
-<wire x1="8.6285" y1="41.507" x2="8.7378" y2="41.6163" width="0.127" layer="1"/>
-<wire x1="8.7378" y1="41.6163" x2="9.8" y2="41.6163" width="0.127" layer="1"/>
+<wire x1="9.7538" y1="41.6163" x2="9.6445" y2="41.507" width="0.127" layer="1"/>
+<wire x1="8.6285" y1="41.507" x2="9.6445" y2="41.507" width="0.127" layer="1"/>
+<wire x1="9.7538" y1="41.6163" x2="9.8" y2="41.6163" width="0.127" layer="1"/>
 <via x="9.8" y="41.6163" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="7.5835" y1="32.4309375" x2="7.5835" y2="32.3485" width="0.127" layer="2"/>
 <wire x1="7.5835" y1="32.3485" x2="6.985" y2="31.75" width="0.127" layer="2"/>
@@ -22630,8 +22631,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP6" pad="P$1"/>
 <wire x1="30.353" y1="31.75" x2="30.988" y2="31.115" width="0.127" layer="16"/>
 <wire x1="30.988" y1="31.115" x2="30.988" y2="30.48" width="0.127" layer="16"/>
-<wire x1="31.9965" y1="41.507" x2="32.1058" y2="41.6163" width="0.127" layer="1"/>
-<wire x1="32.1058" y1="41.6163" x2="33.168" y2="41.6163" width="0.127" layer="1"/>
+<wire x1="33.1218" y1="41.6163" x2="33.0125" y2="41.507" width="0.127" layer="1"/>
+<wire x1="31.9965" y1="41.507" x2="33.0125" y2="41.507" width="0.127" layer="1"/>
+<wire x1="33.1218" y1="41.6163" x2="33.168" y2="41.6163" width="0.127" layer="1"/>
 <via x="33.168" y="41.6163" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="30.9515" y1="32.4309375" x2="30.9515" y2="32.3485" width="0.127" layer="2"/>
 <wire x1="30.9515" y1="32.3485" x2="30.353" y2="31.75" width="0.127" layer="2"/>
@@ -23864,8 +23866,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP9" pad="P$1"/>
 <wire x1="53.721" y1="31.75" x2="54.356" y2="31.115" width="0.127" layer="16"/>
 <wire x1="54.356" y1="31.115" x2="54.356" y2="30.48" width="0.127" layer="16"/>
-<wire x1="55.3645" y1="41.507" x2="55.4738" y2="41.6163" width="0.127" layer="1"/>
-<wire x1="55.4738" y1="41.6163" x2="56.536" y2="41.6163" width="0.127" layer="1"/>
+<wire x1="56.4898" y1="41.6163" x2="56.3805" y2="41.507" width="0.127" layer="1"/>
+<wire x1="55.3645" y1="41.507" x2="56.3805" y2="41.507" width="0.127" layer="1"/>
+<wire x1="56.4898" y1="41.6163" x2="56.536" y2="41.6163" width="0.127" layer="1"/>
 <via x="56.536" y="41.6163" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="54.3195" y1="32.4309375" x2="54.3195" y2="32.3485" width="0.127" layer="2"/>
 <wire x1="54.3195" y1="32.3485" x2="53.721" y2="31.75" width="0.127" layer="2"/>
@@ -25098,8 +25101,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP12" pad="P$1"/>
 <wire x1="77.089" y1="31.75" x2="77.724" y2="31.115" width="0.127" layer="16"/>
 <wire x1="77.724" y1="31.115" x2="77.724" y2="30.48" width="0.127" layer="16"/>
-<wire x1="78.7325" y1="41.507" x2="78.8418" y2="41.6163" width="0.127" layer="1"/>
-<wire x1="78.8418" y1="41.6163" x2="79.904" y2="41.6163" width="0.127" layer="1"/>
+<wire x1="79.8578" y1="41.6163" x2="79.7485" y2="41.507" width="0.127" layer="1"/>
+<wire x1="78.7325" y1="41.507" x2="79.7485" y2="41.507" width="0.127" layer="1"/>
+<wire x1="79.8578" y1="41.6163" x2="79.904" y2="41.6163" width="0.127" layer="1"/>
 <via x="79.904" y="41.6163" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="77.6875" y1="32.4309375" x2="77.6875" y2="32.3485" width="0.127" layer="2"/>
 <wire x1="77.6875" y1="32.3485" x2="77.089" y2="31.75" width="0.127" layer="2"/>
@@ -26332,8 +26336,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP15" pad="P$1"/>
 <wire x1="6.985" y1="93.218" x2="7.62" y2="92.583" width="0.127" layer="16"/>
 <wire x1="7.62" y1="92.583" x2="7.62" y2="91.948" width="0.127" layer="16"/>
-<wire x1="8.6285" y1="102.975" x2="8.7378" y2="103.0843" width="0.127" layer="1"/>
-<wire x1="8.7378" y1="103.0843" x2="9.8" y2="103.0843" width="0.127" layer="1"/>
+<wire x1="9.7538" y1="103.0843" x2="9.6445" y2="102.975" width="0.127" layer="1"/>
+<wire x1="8.6285" y1="102.975" x2="9.6445" y2="102.975" width="0.127" layer="1"/>
+<wire x1="9.7538" y1="103.0843" x2="9.8" y2="103.0843" width="0.127" layer="1"/>
 <via x="9.8" y="103.0843" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="7.5835" y1="93.8989375" x2="7.5835" y2="93.8165" width="0.127" layer="2"/>
 <wire x1="7.5835" y1="93.8165" x2="6.985" y2="93.218" width="0.127" layer="2"/>
@@ -27566,8 +27571,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP18" pad="P$1"/>
 <wire x1="30.353" y1="93.218" x2="30.988" y2="92.583" width="0.127" layer="16"/>
 <wire x1="30.988" y1="92.583" x2="30.988" y2="91.948" width="0.127" layer="16"/>
-<wire x1="31.9965" y1="102.975" x2="32.1058" y2="103.0843" width="0.127" layer="1"/>
-<wire x1="32.1058" y1="103.0843" x2="33.168" y2="103.0843" width="0.127" layer="1"/>
+<wire x1="33.1218" y1="103.0843" x2="33.0125" y2="102.975" width="0.127" layer="1"/>
+<wire x1="31.9965" y1="102.975" x2="33.0125" y2="102.975" width="0.127" layer="1"/>
+<wire x1="33.1218" y1="103.0843" x2="33.168" y2="103.0843" width="0.127" layer="1"/>
 <via x="33.168" y="103.0843" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="30.9515" y1="93.8989375" x2="30.9515" y2="93.8165" width="0.127" layer="2"/>
 <wire x1="30.9515" y1="93.8165" x2="30.353" y2="93.218" width="0.127" layer="2"/>
@@ -28800,8 +28806,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP21" pad="P$1"/>
 <wire x1="53.721" y1="93.218" x2="54.356" y2="92.583" width="0.127" layer="16"/>
 <wire x1="54.356" y1="92.583" x2="54.356" y2="91.948" width="0.127" layer="16"/>
-<wire x1="55.3645" y1="102.975" x2="55.4738" y2="103.0843" width="0.127" layer="1"/>
-<wire x1="55.4738" y1="103.0843" x2="56.536" y2="103.0843" width="0.127" layer="1"/>
+<wire x1="56.4898" y1="103.0843" x2="56.3805" y2="102.975" width="0.127" layer="1"/>
+<wire x1="55.3645" y1="102.975" x2="56.3805" y2="102.975" width="0.127" layer="1"/>
+<wire x1="56.4898" y1="103.0843" x2="56.536" y2="103.0843" width="0.127" layer="1"/>
 <via x="56.536" y="103.0843" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="54.3195" y1="93.8989375" x2="54.3195" y2="93.8165" width="0.127" layer="2"/>
 <wire x1="54.3195" y1="93.8165" x2="53.721" y2="93.218" width="0.127" layer="2"/>
@@ -30034,8 +30041,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP24" pad="P$1"/>
 <wire x1="77.089" y1="93.218" x2="77.724" y2="92.583" width="0.127" layer="16"/>
 <wire x1="77.724" y1="92.583" x2="77.724" y2="91.948" width="0.127" layer="16"/>
-<wire x1="78.7325" y1="102.975" x2="78.8418" y2="103.0843" width="0.127" layer="1"/>
-<wire x1="78.8418" y1="103.0843" x2="79.904" y2="103.0843" width="0.127" layer="1"/>
+<wire x1="79.8578" y1="103.0843" x2="79.7485" y2="102.975" width="0.127" layer="1"/>
+<wire x1="78.7325" y1="102.975" x2="79.7485" y2="102.975" width="0.127" layer="1"/>
+<wire x1="79.8578" y1="103.0843" x2="79.904" y2="103.0843" width="0.127" layer="1"/>
 <via x="79.904" y="103.0843" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="77.6875" y1="93.8989375" x2="77.6875" y2="93.8165" width="0.127" layer="2"/>
 <wire x1="77.6875" y1="93.8165" x2="77.089" y2="93.218" width="0.127" layer="2"/>
@@ -31268,8 +31276,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP27" pad="P$1"/>
 <wire x1="6.985" y1="154.686" x2="7.62" y2="154.051" width="0.127" layer="16"/>
 <wire x1="7.62" y1="154.051" x2="7.62" y2="153.416" width="0.127" layer="16"/>
-<wire x1="8.6285" y1="164.443" x2="8.7378" y2="164.5523" width="0.127" layer="1"/>
-<wire x1="8.7378" y1="164.5523" x2="9.8" y2="164.5523" width="0.127" layer="1"/>
+<wire x1="9.7538" y1="164.5523" x2="9.6445" y2="164.443" width="0.127" layer="1"/>
+<wire x1="8.6285" y1="164.443" x2="9.6445" y2="164.443" width="0.127" layer="1"/>
+<wire x1="9.7538" y1="164.5523" x2="9.8" y2="164.5523" width="0.127" layer="1"/>
 <via x="9.8" y="164.5523" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="7.5835" y1="155.3669375" x2="7.5835" y2="155.2845" width="0.127" layer="2"/>
 <wire x1="7.5835" y1="155.2845" x2="6.985" y2="154.686" width="0.127" layer="2"/>
@@ -32502,8 +32511,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP30" pad="P$1"/>
 <wire x1="30.353" y1="154.686" x2="30.988" y2="154.051" width="0.127" layer="16"/>
 <wire x1="30.988" y1="154.051" x2="30.988" y2="153.416" width="0.127" layer="16"/>
-<wire x1="31.9965" y1="164.443" x2="32.1058" y2="164.5523" width="0.127" layer="1"/>
-<wire x1="32.1058" y1="164.5523" x2="33.168" y2="164.5523" width="0.127" layer="1"/>
+<wire x1="33.1218" y1="164.5523" x2="33.0125" y2="164.443" width="0.127" layer="1"/>
+<wire x1="31.9965" y1="164.443" x2="33.0125" y2="164.443" width="0.127" layer="1"/>
+<wire x1="33.1218" y1="164.5523" x2="33.168" y2="164.5523" width="0.127" layer="1"/>
 <via x="33.168" y="164.5523" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="30.9515" y1="155.3669375" x2="30.9515" y2="155.2845" width="0.127" layer="2"/>
 <wire x1="30.9515" y1="155.2845" x2="30.353" y2="154.686" width="0.127" layer="2"/>
@@ -33736,8 +33746,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP33" pad="P$1"/>
 <wire x1="53.721" y1="154.686" x2="54.356" y2="154.051" width="0.127" layer="16"/>
 <wire x1="54.356" y1="154.051" x2="54.356" y2="153.416" width="0.127" layer="16"/>
-<wire x1="55.3645" y1="164.443" x2="55.4738" y2="164.5523" width="0.127" layer="1"/>
-<wire x1="55.4738" y1="164.5523" x2="56.536" y2="164.5523" width="0.127" layer="1"/>
+<wire x1="56.4898" y1="164.5523" x2="56.3805" y2="164.443" width="0.127" layer="1"/>
+<wire x1="55.3645" y1="164.443" x2="56.3805" y2="164.443" width="0.127" layer="1"/>
+<wire x1="56.4898" y1="164.5523" x2="56.536" y2="164.5523" width="0.127" layer="1"/>
 <via x="56.536" y="164.5523" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="54.3195" y1="155.3669375" x2="54.3195" y2="155.2845" width="0.127" layer="2"/>
 <wire x1="54.3195" y1="155.2845" x2="53.721" y2="154.686" width="0.127" layer="2"/>
@@ -34970,8 +34981,9 @@ These design rules are smaller than the &lt;a href=&quot;https://jlcpcb.com/capa
 <contactref element="TP36" pad="P$1"/>
 <wire x1="77.089" y1="154.686" x2="77.724" y2="154.051" width="0.127" layer="16"/>
 <wire x1="77.724" y1="154.051" x2="77.724" y2="153.416" width="0.127" layer="16"/>
-<wire x1="78.7325" y1="164.443" x2="78.8418" y2="164.5523" width="0.127" layer="1"/>
-<wire x1="78.8418" y1="164.5523" x2="79.904" y2="164.5523" width="0.127" layer="1"/>
+<wire x1="79.8578" y1="164.5523" x2="79.7485" y2="164.443" width="0.127" layer="1"/>
+<wire x1="78.7325" y1="164.443" x2="79.7485" y2="164.443" width="0.127" layer="1"/>
+<wire x1="79.8578" y1="164.5523" x2="79.904" y2="164.5523" width="0.127" layer="1"/>
 <via x="79.904" y="164.5523" extent="1-16" drill="0.2" diameter="0.45"/>
 <wire x1="77.6875" y1="155.3669375" x2="77.6875" y2="155.2845" width="0.127" layer="2"/>
 <wire x1="77.6875" y1="155.2845" x2="77.089" y2="154.686" width="0.127" layer="2"/>
