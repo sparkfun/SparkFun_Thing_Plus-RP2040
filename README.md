@@ -1,7 +1,7 @@
 SparkFun Thing Plus RP2040
 ========================================
 
-[![SparkFun Thing Plus RP2040](https://cdn.sparkfun.com/r/400-400/assets/parts/1/6/8/7/0/17745-SparkFun_Thing_Plus_-_RP2040-01.jpg)](https://www.sparkfun.com/products/17745)
+[![SparkFun Thing Plus RP2040](https://cdn.sparkfun.com/r/400-400/assets/parts/1/6/8/7/0/17745-SparkFun_Thing_Plus_-_RP2040-01a.jpg)](https://www.sparkfun.com/products/17745)
 
 [*SparkFun Thing Plus RP2040 (DEV-17745)*](https://www.sparkfun.com/products/17745)
 
